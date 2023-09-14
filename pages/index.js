@@ -25,8 +25,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="min-h-[600px] mt-4 bg-gray-100 p-4">
-        <h1 className="text-4xl font-semibold text-center mt-6 mb-4 text-gray-700">
+      <div className="min-h-[600px] bg-gray-100 p-4">
+        <h1 className="text-4xl font-semibold text-center mt-8 mb-4 text-gray-700">
           BookandLink
         </h1>
         <p className="text-center text-xl mx-12 mt-10 text-gray-700">
