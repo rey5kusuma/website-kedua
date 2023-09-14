@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="min-h-[680px] bg-gray-100 p-4">
+      <div className="min-h-[680px] bg-gray-200 p-4">
         <h1 className="text-4xl font-semibold text-center mt-8 mb-4 text-gray-700">
           BookandLink
         </h1>
@@ -63,39 +63,73 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="border min-h-[500px] bg-gray-100 flex flex-row place-items-center">
+      <div className="min-h-[600px] bg-gray-100 flex flex-row place-items-center">
         <div
-          className="bg-gray-500 flex items-center p-6 min-h-[500px] text-center"
+          className="bg-blue-200 items-center p-6 min-h-[600px] text-center"
           style={{ width: '448px' }}
         >
-          <img
-            src="https://web.bookandlink.com/wp-content/uploads/2020/04/logo-channelku-1.png"
-            class="h-8 mr-3"
-            alt="bookandlink Logo"
-            style={{ height: '65px' }}
-          />
+          <div className="flex flex-row place-items-center justify-center">
+            <img
+              src="https://web.bookandlink.com/wp-content/uploads/2020/04/logo-channelku-1.png"
+              className="h-8 mt-10"
+              alt="bookandlink Logo"
+              style={{ height: '140px' }}
+            />
+          </div>
+          <p className="mt-14 text-lg text-gray-500">
+            Taut dan Sinkronkan tarif dan ketersediaan kamar Anda
+          </p>
+          <p className="text-lg text-blue-800">
+            dengan semua OTA internasional dan OTA lokal
+          </p>
+          <p className="mt-6 text-lg text-gray-500">
+            Sistem yang sederhana dan cepat untuk memperbarui inventaris dan
+            tarif
+          </p>
+          <p className="text-lg text-blue-800">
+            dari seluruh perangkat dan pembaharuan dengan semua agen
+          </p>
+          <div className="flex flex-row place-items-center justify-center">
+            <div className="bg-blue-900 mt-6 flex flex-row place-items-center justify-center rounded-3xl h-10 w-60">
+              <Link href="#">Klik disini untuk detail</Link>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="white"
+                class="bi bi-arrow-right-circle-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+              </svg>
+            </div>
+          </div>
         </div>
         <div
-          className="bg-gray-500 flex items-center p-6 min-h-[500px] text-center"
+          className="bg-orange-200 items-center p-6 min-h-[600px] text-center"
           style={{ width: '448px' }}
         >
-          <img
-            src="https://web.bookandlink.com/wp-content/uploads/2020/04/logo-bookingku-1.png"
-            class="h-8 mr-3"
-            alt="bookandlink Logo"
-            style={{ height: '65px' }}
-          />
+          <div className="flex flex-row place-items-center justify-center">
+            <img
+              src="https://web.bookandlink.com/wp-content/uploads/2020/04/logo-bookingku-1.png"
+              className="h-8 mt-10"
+              alt="bookandlink Logo"
+              style={{ height: '140px' }}
+            />
+          </div>
         </div>
         <div
-          className="bg-gray-500 flex items-center p-6 min-h-[500px] text-center"
+          className="bg-green-200 items-center p-6 min-h-[600px] text-center"
           style={{ width: '448px' }}
         >
-          <img
-            src="https://web.bookandlink.com/wp-content/uploads/2020/04/logo-hotelku-home.png"
-            class="h-8 mr-3"
-            alt="bookandlink Logo"
-            style={{ height: '65px' }}
-          />
+          <div className="flex flex-row place-items-center justify-center">
+            <img
+              src="https://web.bookandlink.com/wp-content/uploads/2020/04/logo-hotelku-home.png"
+              className="h-8 mt-10"
+              alt="bookandlink Logo"
+              style={{ height: '140px' }}
+            />
+          </div>
         </div>
       </div>
     </MainLayout>
