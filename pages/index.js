@@ -58,7 +58,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-row place-items-center justify-center">
-          <div className="border-2 border-gray-800 mt-10 flex flex-row place-items-center justify-center rounded-3xl h-10 w-44">
+          <div className="border-2 border-gray-800 mt-10 flex flex-row place-items-center justify-center rounded-3xl h-10 w-44 cursor-pointer">
             <Link href="#">Lihat lebih banyak</Link>
           </div>
         </div>
@@ -90,18 +90,22 @@ export default function Home() {
             dari seluruh perangkat dan pembaharuan dengan semua agen
           </p>
           <div className="flex flex-row place-items-center justify-center">
-            <div className="bg-blue-900 mt-6 flex flex-row place-items-center justify-center rounded-3xl h-10 w-60">
-              <Link href="#">Klik disini untuk detail</Link>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="26"
-                height="26"
-                fill="white"
-                class="bi bi-arrow-right-circle-fill"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-              </svg>
+            <div className="bg-blue-900 mt-8 flex flex-row place-items-center justify-center rounded-3xl h-10 w-56 cursor-pointer">
+              <Link href="#" className="text-sm text-white">
+                Klik disini untuk detail
+              </Link>
+              <div className="ml-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="white"
+                  class="bi bi-arrow-right-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                </svg>
+              </div>
             </div>
           </div>
         </div>
@@ -117,6 +121,31 @@ export default function Home() {
               style={{ height: '140px' }}
             />
           </div>
+          <p className="mt-14 text-lg text-gray-500">Cepat, mudah, dan</p>
+          <p className="text-lg text-blue-800">mobile-friendly</p>
+          <p className="mt-6 text-lg text-gray-500">
+            Mengarahkan dan meningkatkan pemesanan
+          </p>
+          <p className="text-lg text-blue-800">langsung tanpa komisi</p>
+          <div className="flex flex-row place-items-center justify-center">
+            <div className="bg-orange-600 mt-28 flex flex-row place-items-center justify-center rounded-3xl h-10 w-56 cursor-pointer">
+              <Link href="#" className="text-sm text-white">
+                Klik disini untuk detail
+              </Link>
+              <div className="ml-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="white"
+                  class="bi bi-arrow-right-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                </svg>
+              </div>
+            </div>
+          </div>
         </div>
         <div
           className="bg-green-200 items-center p-6 min-h-[600px] text-center"
@@ -129,6 +158,37 @@ export default function Home() {
               alt="bookandlink Logo"
               style={{ height: '140px' }}
             />
+          </div>
+          <p className="mt-14 text-lg text-gray-500">
+            Membuat, mengelola, dan mengubah reservasi
+          </p>
+          <p className="text-lg text-blue-800">
+            semua sumber pada satu halaman
+          </p>
+          <p className="mt-6 text-lg text-gray-500">
+            Penjelasan yang detail terhadap
+          </p>
+          <p className="text-lg text-blue-800 mb-4">
+            transaksi harian properti Anda
+          </p>
+          <div className="flex flex-row place-items-center justify-center">
+            <div className="bg-lime-700 mt-24 flex flex-row place-items-center justify-center rounded-3xl h-10 w-56 cursor-pointer">
+              <Link href="#" className="text-sm text-white">
+                Klik disini untuk detail
+              </Link>
+              <div className="ml-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="white"
+                  class="bi bi-arrow-right-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                </svg>
+              </div>
+            </div>
           </div>
         </div>
       </div>
