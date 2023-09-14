@@ -192,6 +192,25 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="min-h-[500px] bg-gray-100 flex flex-row">
+        <div className="p-8">
+          <h1 className="text-5xl font-semibold ml-20">BERITA & ACARA</h1>
+          <p className="ml-20 mt-12 text-lg text-gray-700">
+            Find in this page all news and events happening for BOOKANDLINK but
+            also useful information on hospitality business.
+          </p>
+        </div>
+        <div>
+          <div className="flex flex-row place-items-center justify-center">
+            <img
+              src="https://www.apa.org/images/2017-07-parents_tcm7-220276.jpg"
+              className="h-42 mt-10"
+              alt="image"
+              style={{ height: '140px' }}
+            />
+          </div>
+        </div>
+      </div>
     </MainLayout>
   );
 }
