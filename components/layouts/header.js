@@ -4,15 +4,13 @@ export default function Header() {
   return (
     <nav className="bg-white border-gray-200 bg-white dark:border-gray-700">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <Link href="#" class="flex items-center">
+        <Link href="#" className="flex items-center ml-6">
           <img
-            src="https://flowbite.com/docs/images/logo.svg"
+            src="https://web.bookandlink.com/wp-content/uploads/2020/04/logo-bookandlink-1.png"
             class="h-8 mr-3"
-            alt="Flowbite Logo"
+            alt="bookandlink Logo"
+            style={{ height: '65px' }}
           />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap text-grey-900">
-            Arya Hosting
-          </span>
         </Link>
         <div
           className="p-2 hidden w-full md:block md:w-auto"
