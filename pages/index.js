@@ -192,21 +192,21 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="min-h-[500px] bg-gray-100 flex flex-row">
-        <div className="p-8">
+      <div className="min-h-[400px] bg-yellow-500 flex flex-row ">
+        <div className="border mr-16 ml-6 mt-20" style={{ width: '600px' }}>
           <h1 className="text-5xl font-semibold ml-20">BERITA & ACARA</h1>
-          <p className="ml-20 mt-12 text-lg text-gray-700">
+          <p className="ml-20 mt-10 text-xl text-gray-700">
             Find in this page all news and events happening for BOOKANDLINK but
             also useful information on hospitality business.
           </p>
         </div>
         <div>
-          <div className="flex flex-row place-items-center justify-center">
+          <div className="flex flex-row ml-16">
             <img
-              src="https://www.apa.org/images/2017-07-parents_tcm7-220276.jpg"
-              className="h-42 mt-10"
+              src="https://itp.live/cloud/2021/12/13/Ga0uMuOw-selfie-takers-2.jpg"
+              className=""
               alt="image"
-              style={{ height: '140px' }}
+              style={{ height: '400px' }}
             />
           </div>
         </div>
