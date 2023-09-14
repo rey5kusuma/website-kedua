@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="min-h-[600px] bg-gray-100 p-4">
+      <div className="min-h-[680px] bg-gray-100 p-4">
         <h1 className="text-4xl font-semibold text-center mt-8 mb-4 text-gray-700">
           BookandLink
         </h1>
@@ -58,9 +58,44 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-row place-items-center justify-center">
-          <div className="border-2 border-gray-800 mt-8 flex flex-row place-items-center justify-center rounded-3xl h-10 w-44">
+          <div className="border-2 border-gray-800 mt-10 flex flex-row place-items-center justify-center rounded-3xl h-10 w-44">
             <Link href="#">Lihat lebih banyak</Link>
           </div>
+        </div>
+      </div>
+      <div className="border min-h-[500px] bg-gray-100 flex flex-row place-items-center">
+        <div
+          className="bg-gray-500 flex items-center p-6 min-h-[500px] text-center"
+          style={{ width: '448px' }}
+        >
+          <img
+            src="https://web.bookandlink.com/wp-content/uploads/2020/04/logo-channelku-1.png"
+            class="h-8 mr-3"
+            alt="bookandlink Logo"
+            style={{ height: '65px' }}
+          />
+        </div>
+        <div
+          className="bg-gray-500 flex items-center p-6 min-h-[500px] text-center"
+          style={{ width: '448px' }}
+        >
+          <img
+            src="https://web.bookandlink.com/wp-content/uploads/2020/04/logo-bookingku-1.png"
+            class="h-8 mr-3"
+            alt="bookandlink Logo"
+            style={{ height: '65px' }}
+          />
+        </div>
+        <div
+          className="bg-gray-500 flex items-center p-6 min-h-[500px] text-center"
+          style={{ width: '448px' }}
+        >
+          <img
+            src="https://web.bookandlink.com/wp-content/uploads/2020/04/logo-hotelku-home.png"
+            class="h-8 mr-3"
+            alt="bookandlink Logo"
+            style={{ height: '65px' }}
+          />
         </div>
       </div>
     </MainLayout>
