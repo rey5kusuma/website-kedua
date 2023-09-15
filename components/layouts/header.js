@@ -91,7 +91,7 @@ export default function Header() {
             </ul>
           </div>
           <div
-            className="hidden mt-2 w-full md:block md:w-auto"
+            className="hidden mt-4 w-full md:block md:w-auto"
             id="navbar-default"
           >
             <ul className="font-sm text-base flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
