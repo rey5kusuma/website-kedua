@@ -97,7 +97,7 @@ export default function Header() {
             <ul className="font-sm text-base flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
               <li>
                 <Link
-                  href="#"
+                  href="home"
                   class="flex items-center block py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   <svg
