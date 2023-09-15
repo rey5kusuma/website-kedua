@@ -66,7 +66,7 @@ export default function Home() {
       <div className="min-h-[600px] bg-gray-100 flex flex-row place-items-center">
         <div
           className="bg-blue-200 items-center p-6 min-h-[600px] text-center"
-          style={{ width: '448px' }}
+          style={{ width: '449px' }}
         >
           <div className="flex flex-row place-items-center justify-center">
             <img
@@ -111,7 +111,7 @@ export default function Home() {
         </div>
         <div
           className="bg-orange-200 items-center p-6 min-h-[600px] text-center"
-          style={{ width: '448px' }}
+          style={{ width: '450px' }}
         >
           <div className="flex flex-row place-items-center justify-center">
             <img
@@ -126,7 +126,7 @@ export default function Home() {
           <p className="mt-6 text-lg text-gray-500">
             Mengarahkan dan meningkatkan pemesanan
           </p>
-          <p className="text-lg text-blue-800">langsung tanpa komisi</p>
+          <p className="text-lg mb-2 text-blue-800">langsung tanpa komisi</p>
           <div className="flex flex-row place-items-center justify-center">
             <div className="bg-orange-600 mt-28 flex flex-row place-items-center justify-center rounded-3xl h-10 w-56 cursor-pointer">
               <Link href="#" className="text-sm text-white">
@@ -149,7 +149,7 @@ export default function Home() {
         </div>
         <div
           className="bg-green-200 items-center p-6 min-h-[600px] text-center"
-          style={{ width: '448px' }}
+          style={{ width: '450px' }}
         >
           <div className="flex flex-row place-items-center justify-center">
             <img
@@ -168,7 +168,7 @@ export default function Home() {
           <p className="mt-6 text-lg text-gray-500">
             Penjelasan yang detail terhadap
           </p>
-          <p className="text-lg text-blue-800 mb-4">
+          <p className="text-lg text-blue-800 mb-5">
             transaksi harian properti Anda
           </p>
           <div className="flex flex-row place-items-center justify-center">
@@ -192,13 +192,32 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="min-h-[400px] bg-yellow-500 flex flex-row ">
-        <div className="border mr-16 ml-6 mt-20" style={{ width: '600px' }}>
+      <div className="min-h-[400px] bg-yellow-400 flex flex-row ">
+        <div className="mr-16 ml-6 mt-14" style={{ width: '600px' }}>
           <h1 className="text-5xl font-semibold ml-20">BERITA & ACARA</h1>
           <p className="ml-20 mt-10 text-xl text-gray-700">
             Find in this page all news and events happening for BOOKANDLINK but
             also useful information on hospitality business.
           </p>
+          <div className="flex flex-row ml-20">
+            <div className="bg-neutral-50 mt-16 flex flex-row place-items-center justify-center rounded-3xl h-10 w-56 cursor-pointer">
+              <Link href="#" className="text-sm text-black">
+                Klik disini untuk detail
+              </Link>
+              <div className="ml-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="gray"
+                  class="bi bi-arrow-right-circle-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                </svg>
+              </div>
+            </div>
+          </div>
         </div>
         <div>
           <div className="flex flex-row ml-16">
@@ -208,6 +227,109 @@ export default function Home() {
               alt="image"
               style={{ height: '400px' }}
             />
+          </div>
+        </div>
+      </div>
+      <div className="min-h-[900px] bg-gray-50">
+        <div className="mx-4 flex flex-row">
+          <div className="mt-14 ml-8 flex flex-row" style={{ width: '600px' }}>
+            <div className="" style={{ width: '900px' }}>
+              <img
+                src="https://web.bookandlink.com/wp-content/uploads/2020/04/legreen-hotel-suite.jpg"
+                className=""
+                alt="image"
+                style={{ height: '210px' }}
+              />
+            </div>
+            <div className="ml-6">
+              <img src="https://web.bookandlink.com/wp-content/themes/bookandlink/images/testimoni-kutip.png" />
+              <h1 className="text-lg text-gray-600 mt-6">
+                LeGreen Hotel & Suite
+              </h1>
+              <h1 className="text-4xl font-medium text-gray-700 mt-6">
+                Ajie Fahrezy - Manajer Pemasaran
+              </h1>
+              <p className="mt-4 text-gray-700">
+                BookandLink memberi kita kemudahan mengelola OTA, fitur-fiturnya
+                terus berkembang mulai dari front office dan sistem
+                pembayarannya. Proses integrasi dengan klien cepat dan didukung
+                oleh tim yang kompeten.
+              </p>
+            </div>
+          </div>
+          <div className="mt-14 ml-8 flex flex-row" style={{ width: '600px' }}>
+            <div className="" style={{ width: '900px' }}>
+              <img
+                src="https://web.bookandlink.com/wp-content/uploads/2020/04/the-daha-management.jpg"
+                className="rounded-full"
+                alt="image"
+                style={{ height: '210px' }}
+              />
+            </div>
+            <div className="ml-6">
+              <img src="https://web.bookandlink.com/wp-content/themes/bookandlink/images/testimoni-kutip.png" />
+              <h1 className="text-lg text-gray-600 mt-6">
+                The Daha, A Luxury Resort and Spa
+              </h1>
+              <h1 className="text-4xl font-medium text-gray-700 mt-6">
+                The Daha, A Luxury Resort and Spa Team Management
+              </h1>
+              <p className="mt-4 text-gray-700">
+                Secara keseluruhan sistem BookandLink sederhana, mudah digunakan
+                dan sangat membantu. Selalu memberikan pembaruan dan dapat terus
+                mengembangkan sistem.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="mx-4 flex flex-row">
+          <div className="mt-14 ml-8 flex flex-row" style={{ width: '600px' }}>
+            <div className="" style={{ width: '1100px' }}>
+              <img
+                src="https://web.bookandlink.com/wp-content/uploads/2020/04/bread-jam-management.jpg"
+                className="rounded-full"
+                alt="image"
+                style={{ height: '210px' }}
+              />
+            </div>
+            <div className="ml-6">
+              <img src="https://web.bookandlink.com/wp-content/themes/bookandlink/images/testimoni-kutip.png" />
+              <h1 className="text-lg text-gray-600 mt-6">Bread and Jam</h1>
+              <h1 className="text-4xl font-medium text-gray-700 mt-6">
+                Bread and Jam Management
+              </h1>
+              <p className="mt-4 text-gray-700">
+                BookandLink sangat membantu dengan Channel Manager & Booking
+                Enginenya, platformnya sangat sederhana dan fleksibel sehingga
+                dapat disesuaikan dengan kebutuhan hostel kami serta
+                anggarannya. Sistem pendukungnya juga sangat bagus dan
+                responsif.
+              </p>
+            </div>
+          </div>
+          <div className="mt-14 ml-8 flex flex-row" style={{ width: '600px' }}>
+            <div className="" style={{ width: '900px' }}>
+              <img
+                src="https://web.bookandlink.com/wp-content/uploads/2020/04/madhava-hospitality.jpg"
+                className="rounded-full"
+                alt="image"
+                style={{ height: '210px' }}
+              />
+            </div>
+            <div className="ml-6">
+              <img src="https://web.bookandlink.com/wp-content/themes/bookandlink/images/testimoni-kutip.png" />
+              <h1 className="text-lg text-gray-600 mt-6">
+                Madhava Hospitality
+              </h1>
+              <h1 className="text-4xl font-medium text-gray-700 mt-6">
+                Putu Arya - Marketing Executive
+              </h1>
+              <p className="mt-4 text-gray-700">
+                BookandLink selalu memahami kebutuhan properti dan responsif.
+                Sistem selalu berjalan dengan lancar dan membantu memfasilitasi
+                properti yang kami tangani.
+              </p>
+            </div>
           </div>
         </div>
       </div>
