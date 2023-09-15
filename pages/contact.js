@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Contact() {
   return (
     <MainLayout title="Welcome Homepage">
-      <div className="grid min-h-[80vh] place-items-center">
+      <div className="grid min-h-[80vh] place-items-center mt-24">
         <div className="flex flex-row bg-no-repeat">
           <img
             src="https://web.bookandlink.com/wp-content/uploads/2020/05/main-contact-02-1500x586.jpg"
@@ -14,15 +14,15 @@ export default function Contact() {
           />
         </div>
       </div>
-      <div className="grid min-h-[70vh] bg-sky-600">
+      <div className="grid min-h-[65vh] bg-sky-600">
         <div className="flex flex-row">
-          <div className="border w-80 ml-20 my-10 flex flex-row">
-            <div className="border">
+          <div className="w-80 ml-20 my-10 flex flex-row">
+            <div className="border border-y-0 border-l-0 px-4 pt-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
+                width="46"
+                height="46"
+                fill="white"
                 class="bi bi-map"
                 viewBox="0 0 16 16"
               >
@@ -32,14 +32,38 @@ export default function Contact() {
                 />
               </svg>
             </div>
+            <div>
+              <div>
+                <h1>ALAMAT</h1>
+                <p>BOOKANDLINK PTE. LTD.</p>
+                <p>133 New Bridge Road</p>
+                <p>#17-01 Chinatown Point</p>
+                <p>Singapore</p>
+              </div>
+              <hr />
+              <div>
+                <h1>PT. SURYA JAGAT MANDIRI (BOOKANDLINK)</h1>
+                <p>BOOKANDLINK PTE. LTD.</p>
+                <p>Jl. Padang Kartika No.6</p>
+                <p>Kerobokan – Bali</p>
+                <p>Indonesia</p>
+              </div>
+              <hr />
+              <div>
+                <h1>BOFILL TECHNOLOGIES (BOOKANDLINK)</h1>
+                <p>9 W Broad Street, Suite 320</p>
+                <p>Stamford, CT 06902</p>
+                <p>USA</p>
+              </div>
+            </div>
           </div>
-          <div className="border w-80 ml-20 my-10 flex flex-row">
-            <div className="border">
+          <div className="w-80 ml-20 my-10 flex flex-row">
+            <div className="border border-y-0 border-l-0 px-4 pt-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
+                width="46"
+                height="46"
+                fill="white"
                 class="bi bi-send-fill"
                 viewBox="0 0 16 16"
               >
@@ -47,17 +71,18 @@ export default function Contact() {
               </svg>
             </div>
           </div>
-          <div className="border w-80 ml-20 my-10 flex flex-row">
-            <div className="border">
+          <div className="w-80 ml-20 my-10 flex flex-row">
+            <div className="border border-y-0 border-l-0 px-4 pt-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-phone-fill"
+                width="46"
+                height="46"
+                fill="white"
+                class="bi bi-phone"
                 viewBox="0 0 16 16"
               >
-                <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z" />
+                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
               </svg>
             </div>
           </div>

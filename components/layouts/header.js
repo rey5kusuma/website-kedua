@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <nav className="bg-white border-gray-200 bg-white dark:border-gray-700">
+    <nav className="bg-white border-gray-200 bg-white dark:border-gray-700 fixed w-full z-20 top-0 left-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link href="#" className="flex items-center ml-6">
           <img
@@ -210,7 +210,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="contact"
                   class="flex items-center block mr-8 py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   <svg

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <MainLayout title="Welcome Homepage">
       <div
-        className="grid min-h-[100vh] w-full place-items-center bg-light bg-cover bg-no-repeat"
+        className="grid min-h-[100vh] w-full place-items-center bg-light bg-cover bg-no-repeat mt-24"
         style={{
           backgroundImage:
             'url(https://web.bookandlink.com/wp-content/uploads/2020/04/banner-image-bookandlink3.jpg)',
