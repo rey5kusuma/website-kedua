@@ -16,7 +16,7 @@ export default function Contact() {
       </div>
       <div className="grid min-h-[70vh] bg-sky-600">
         <div className="flex flex-row">
-          <div className="border w-">
+          <div className="border w-80 ml-20 my-10">
             <div className="border">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
