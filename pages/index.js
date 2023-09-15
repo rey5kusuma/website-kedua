@@ -11,7 +11,7 @@ export default function Home() {
             'url(https://web.bookandlink.com/wp-content/uploads/2020/04/banner-image-bookandlink3.jpg)',
         }}
       >
-        <div className="bg-slate-900 bg-opacity-50 min-h-[620px] w-full py-8 px-14 text-center lg:py-16">
+        <div className="bg-slate-900 bg-opacity-50 min-h-[652px] w-full py-8 px-14 text-center lg:py-16">
           <h1 className="mb-14 mx-12 mt-32 text-xl font-bold tracking-tight leading-none text-gray-50 md:text-4xl lg:text-5xl dark:text-blue">
             SATU-SATUNYA CHANNEL MANAGER YANG BERBASIS DI INDONESIA
           </h1>
