@@ -194,7 +194,11 @@ export default function Home() {
       </div>
       <div className="min-h-[400px] bg-yellow-400 flex flex-row ">
         <div className="mr-16 ml-6 mt-14" style={{ width: '600px' }}>
-          <h1 className="text-5xl font-semibold ml-20">BERITA & ACARA</h1>
+          <div className="text-5xl font-semibold ml-20 flex flex-row ">
+            <p className="text-white">BERITA</p>{' '}
+            <p className="text-gray-700 mx-3">&</p>{' '}
+            <p className="text-white">ACARA</p>
+          </div>
           <p className="ml-20 mt-10 text-xl text-gray-700">
             Find in this page all news and events happening for BOOKANDLINK but
             also useful information on hospitality business.
@@ -230,7 +234,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="min-h-[900px] bg-gray-50">
+      <div className="min-h-[900px] bg-gray-50 mt-14">
         <div className="mx-4 flex flex-row">
           <div className="mt-14 ml-8 flex flex-row" style={{ width: '600px' }}>
             <div className="" style={{ width: '900px' }}>
