@@ -14,9 +14,9 @@ export default function Contact() {
           />
         </div>
       </div>
-      <div className="grid min-h-[65vh] bg-sky-600">
+      <div className="grid min-h-[50vh] bg-sky-600">
         <div className="flex flex-row">
-          <div className="w-80 ml-20 my-10 flex flex-row">
+          <div className="w-96 ml-20 my-10 flex flex-row">
             <div className="border border-y-0 border-l-0 px-4 pt-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -32,32 +32,37 @@ export default function Contact() {
                 />
               </svg>
             </div>
-            <div>
-              <div>
-                <h1>ALAMAT</h1>
-                <p>BOOKANDLINK PTE. LTD.</p>
-                <p>133 New Bridge Road</p>
-                <p>#17-01 Chinatown Point</p>
-                <p>Singapore</p>
+            <div className="ml-4">
+              <div className="text-gray-100">
+                <h1 className="text-xl font-semibold">ALAMAT</h1>
+                <p className="text-xs mt-2 font-semibold">
+                  BOOKANDLINK PTE. LTD.
+                </p>
+                <p className="text-xs mt-1">133 New Bridge Road</p>
+                <p className="text-xs mt-1">#17-01 Chinatown Point</p>
+                <p className="text-xs mt-1 font-semibold">Singapore</p>
               </div>
-              <hr />
-              <div>
-                <h1>PT. SURYA JAGAT MANDIRI (BOOKANDLINK)</h1>
-                <p>BOOKANDLINK PTE. LTD.</p>
-                <p>Jl. Padang Kartika No.6</p>
-                <p>Kerobokan – Bali</p>
-                <p>Indonesia</p>
+              <hr className="my-2" />
+              <div className="text-gray-100">
+                <p className="text-xs mt-2 font-semibold">
+                  PT. SURYA JAGAT MANDIRI (BOOKANDLINK)
+                </p>
+                <p className="text-xs mt-1">Jl. Padang Kartika No.6</p>
+                <p className="text-xs mt-1">Kerobokan – Bali</p>
+                <p className="text-xs mt-1 font-semibold">Indonesia</p>
               </div>
-              <hr />
-              <div>
-                <h1>BOFILL TECHNOLOGIES (BOOKANDLINK)</h1>
-                <p>9 W Broad Street, Suite 320</p>
-                <p>Stamford, CT 06902</p>
-                <p>USA</p>
+              <hr className="my-2" />
+              <div className="text-gray-100">
+                <p className="text-xs mt-2 font-semibold">
+                  BOFILL TECHNOLOGIES (BOOKANDLINK)
+                </p>
+                <p className="text-xs mt-1">9 W Broad Street, Suite 320</p>
+                <p className="text-xs mt-1">Stamford, CT 06902</p>
+                <p className="text-xs mt-1 font-semibold">USA</p>
               </div>
             </div>
           </div>
-          <div className="w-80 ml-20 my-10 flex flex-row">
+          <div className="w-96 ml-14 my-10 flex flex-row">
             <div className="border border-y-0 border-l-0 px-4 pt-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +76,7 @@ export default function Contact() {
               </svg>
             </div>
           </div>
-          <div className="w-80 ml-20 my-10 flex flex-row">
+          <div className="w-96 ml-14 my-10 flex flex-row">
             <div className="border border-y-0 border-l-0 px-4 pt-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
