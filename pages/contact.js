@@ -139,8 +139,15 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="grid min-h-[110vh] bg-gray-100 flex flex-row">
-        <div className="border min-h-[500px] w-[650px] m-4"></div>
+      <div className="grid min-h-[110vh] bg-gray-100">
+        <div className="flex flex-row">
+          <div className="border border-black min-h-[500px] w-[600px] my-6 ml-8">
+            
+          </div>
+          <div className="border border-black min-h-[500px] w-[650px] my-6 mx-8">
+            eddedede
+          </div>
+        </div>
       </div>
     </MainLayout>
   );
