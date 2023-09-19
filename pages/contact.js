@@ -139,13 +139,44 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="grid min-h-[110vh] bg-gray-100">
+      <div className="grid min-h-[130vh] bg-gray-100">
         <div className="flex flex-row">
-          <div className="border border-black min-h-[500px] w-[600px] my-6 ml-8">
-            
+          <div className="border border-black h-[410px] w-[600px] mt-14 my-6 ml-8">
+            Map
           </div>
-          <div className="border border-black min-h-[500px] w-[650px] my-6 mx-8">
-            eddedede
+          <div className="border border-black h-[700px] w-[650px] mt-14 my-6 mx-8">
+            <h1 className="">
+              Silakan kirim pesan melalui form di bawah ini. Kami akan segera
+              menghubungi Anda.
+            </h1>
+            <div className="border flex flex-row w-full">
+              <div className="my-4 mx-6 w-60">
+                <label
+                  for="small-input"
+                  className="block mb-2 text-l text-gray-900"
+                >
+                  Nama Lengkap*
+                </label>
+                <input
+                  type="text"
+                  id="small-input"
+                  className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-100 sm:text-xs"
+                />
+              </div>
+              <div className="mt-4 ml-6 w-60">
+                <label
+                  for="small-input"
+                  className="block mb-2 text-l text-gray-900"
+                >
+                  Nama Lengkap*
+                </label>
+                <input
+                  type="text"
+                  id="small-input"
+                  className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-100 sm:text-xs"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
