@@ -145,12 +145,12 @@ export default function Contact() {
             Map
           </div>
           <div className="border border-black h-[700px] w-[650px] mt-14 my-6 mx-8">
-            <h1 className="">
+            <h1 className="text-xl font-bold text-gray-700 mx-6">
               Silakan kirim pesan melalui form di bawah ini. Kami akan segera
               menghubungi Anda.
             </h1>
             <div className="border flex flex-row w-full">
-              <div className="my-4 mx-6 w-60">
+              <div className="my-4 ml-6 w-72">
                 <label
                   for="small-input"
                   className="block mb-2 text-l text-gray-900"
@@ -163,12 +163,53 @@ export default function Contact() {
                   className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-100 sm:text-xs"
                 />
               </div>
-              <div className="mt-4 ml-6 w-60">
+              <div className="mt-4 ml-2 w-72">
                 <label
                   for="small-input"
                   className="block mb-2 text-l text-gray-900"
                 >
-                  Nama Lengkap*
+                  Email *
+                </label>
+                <input
+                  type="text"
+                  id="small-input"
+                  className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-100 sm:text-xs"
+                />
+              </div>
+            </div>
+            <div className="border flex flex-row w-full">
+              <div className="my-4 ml-6 w-44">
+                <label
+                  for="small-input"
+                  className="block mb-2 text-l text-gray-900"
+                >
+                  Nama Hotel/Properti
+                </label>
+                <input
+                  type="text"
+                  id="small-input"
+                  className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-100 sm:text-xs"
+                />
+              </div>
+              <div className="mt-4 ml-2 w-44">
+                <label
+                  for="small-input"
+                  className="block mb-2 text-l text-gray-900"
+                >
+                  No. Telepon *
+                </label>
+                <input
+                  type="text"
+                  id="small-input"
+                  className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-100 sm:text-xs"
+                />
+              </div>
+              <div className="mt-4 ml-2 w-44">
+                <label
+                  for="small-input"
+                  className="block mb-2 text-l text-gray-900"
+                >
+                  Jumlah Kamar/Unit
                 </label>
                 <input
                   type="text"
