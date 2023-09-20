@@ -155,7 +155,7 @@ export default function Contact() {
                   for="small-input"
                   className="block mb-2 text-l text-gray-900"
                 >
-                  Nama Lengkap*
+                  Nama Lengkap *
                 </label>
                 <input
                   type="text"
@@ -178,7 +178,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="border flex flex-row w-full">
-              <div className="my-4 ml-6 w-44">
+              <div className="my-4 ml-6 w-48">
                 <label
                   for="small-input"
                   className="block mb-2 text-l text-gray-900"
@@ -191,7 +191,7 @@ export default function Contact() {
                   className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-100 sm:text-xs"
                 />
               </div>
-              <div className="mt-4 ml-2 w-44">
+              <div className="mt-4 ml-2 w-48">
                 <label
                   for="small-input"
                   className="block mb-2 text-l text-gray-900"
@@ -204,7 +204,7 @@ export default function Contact() {
                   className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-100 sm:text-xs"
                 />
               </div>
-              <div className="mt-4 ml-2 w-44">
+              <div className="border mt-4 ml-2 w-48">
                 <label
                   for="small-input"
                   className="block mb-2 text-l text-gray-900"
@@ -217,6 +217,22 @@ export default function Contact() {
                   className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-100 sm:text-xs"
                 />
               </div>
+            </div>
+            <div className="mt-4 mx-6">
+              <label
+                for="small-input"
+                className="block mb-2 text-l text-gray-900"
+              >
+                Pesan *
+              </label>
+              <textarea
+                id="message"
+                rows="4"
+                class="block p-2.5 w-full h-44 bg-gray-50 text-sm text-gray-900 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:focus:border-blue-500"
+              ></textarea>
+            </div>
+            <div className="bg-gray-200 w-72 ml-6 p-2 mt-12 h-20">
+              <p className="ml-10 mt-5">Saya bukan robot</p>
             </div>
           </div>
         </div>
