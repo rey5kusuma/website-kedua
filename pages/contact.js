@@ -139,12 +139,12 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="grid min-h-[130vh] bg-gray-100">
+      <div className="grid min-h-[140vh] bg-gray-100">
         <div className="flex flex-row">
           <div className="border border-black h-[410px] w-[600px] mt-14 my-6 ml-8">
             Map
           </div>
-          <div className="border border-black h-[700px] w-[650px] mt-14 my-6 mx-8">
+          <div className="h-[700px] w-[650px] mt-14 my-6 mx-8">
             <h1 className="text-xl font-bold text-gray-700 mx-6">
               Silakan kirim pesan melalui form di bawah ini. Kami akan segera
               menghubungi Anda.
