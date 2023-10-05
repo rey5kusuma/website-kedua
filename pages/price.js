@@ -5,11 +5,15 @@ export default function Home() {
   return (
     <MainLayout title="Welcome Homepage">
       <div className="grid min-h-[230vh]">
-        <div className="">
-          <h1>SIMPLIFY OPERATIONS TO MAXIMIZE YOUR REVENUE</h1>
-          <p>Find the perfect plan for your property</p>
-          <h1>REQUEST FOR A QUOTE</h1>
-          <p>
+        <div className="mt-40 mx-16 text-center">
+          <h1 className="text-3xl">
+            SIMPLIFY OPERATIONS TO MAXIMIZE YOUR REVENUE
+          </h1>
+          <p className="text-2xl mt-2">
+            Find the perfect plan for your property
+          </p>
+          <h1 className="mt-2 text-4xl font-semibold">REQUEST FOR A QUOTE</h1>
+          <p className="mt-3 px-2 rounded text-white text-lg bg-sky-950">
             Every properties are unique, and each has different sets of
             requirements. Therefore, with our modular pricing strategy, we
             provide you with a personalized quote, taking into account the
