@@ -4,8 +4,8 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <MainLayout title="Welcome Homepage">
-      <div className="grid min-h-[230vh]">
-        <div className="mt-40 mx-16 text-center">
+      <div className="h-[230vh]">
+        <div className="border h-[38vh] mt-40 mx-16 text-center">
           <h1 className="text-3xl">
             SIMPLIFY OPERATIONS TO MAXIMIZE YOUR REVENUE
           </h1>
@@ -21,6 +21,7 @@ export default function Home() {
             get the most beneficial pricing plan for your hotel.
           </p>
         </div>
+        <div className="h-[100vh] mx-16 mt-4 bg-blue-200"></div>
       </div>
     </MainLayout>
   );
