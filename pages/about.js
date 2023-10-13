@@ -13,7 +13,6 @@ export default function Contact() {
             style={{ height: '300px' }}
           />
         </div>
-
         <div className="h-[150vh]">
           <div className="mx-48 mt-6 text-gray-700">
             <h1 className="text-center text-4xl">Tentang Kami</h1>
