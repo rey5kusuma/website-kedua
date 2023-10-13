@@ -66,6 +66,20 @@ export default function Affiliate() {
                   />
                 </div>
                 <div className="mt-6">
+                  <label for="countries" class="block text-sm text-gray-900">
+                    Negara *
+                  </label>
+                  <select
+                    id="countries"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 sm:tex-lg"
+                  >
+                    <option>Indonesia</option>
+                    <option>Canada</option>
+                    <option>France</option>
+                    <option>Germany</option>
+                  </select>
+                </div>
+                <div className="mt-6">
                   <label
                     for="small-input"
                     className="block text-sm text-gray-900"
