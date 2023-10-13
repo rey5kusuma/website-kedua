@@ -35,7 +35,7 @@ export default function Affiliate() {
                 cocok untuk Anda maupun bisnis Anda.
               </p>
             </div>
-            <div className="border border-black h-[90vh] mx-52 mt-20 px-6">
+            <div className="border border-black h-[90vh] mx-52 mt-16 px-6">
               <div className="mx-20">
                 <div className="mt-6">
                   <label
@@ -113,6 +113,26 @@ export default function Affiliate() {
                   >
                     SEND
                   </button>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="">
+                  <h1 className="">Referral Program</h1>
+                  <p className="">
+                    Program Referral BookAndLink menawarkan Anda komisi untuk
+                    semua pembayaran yang dilakukan oleh klien yang dirujuk
+                    selama 12 bulan pertama.
+                  </p>
+                  <p className="">
+                    Program Referral sesuai untuk bisnis atau usaha properti
+                    yang ingin segera menerima peningkatan pendapatan.
+                  </p>
+                </div>
+                <div className="">
+                  <h1 className="">Partnership Program</h1>
+                  <p className="">Apakah Anda siap untuk mulai mengembangkan bisnis Anda? Bermitra dengan kami.</p>
+                  <p className="">Penawaran kami dapat bervariasi mengikuti jumlah properti yang Anda kelola.</p>
+                  <p className="">Kami juga dapat menawarkan solusi White Label dan semua interface akan berada di bawah nama Bisnis Anda.</p>
                 </div>
               </div>
             </div>
