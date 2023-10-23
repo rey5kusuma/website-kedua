@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <MainLayout title="Welcome Homepage">
       <div className="h-[230vh]">
-        <div className="border h-[38vh] mt-40 mx-16 text-center">
+        <div className="border h-[38vh] mt-32 mx-16 text-center">
           <h1 className="text-3xl">
             SIMPLIFY OPERATIONS TO MAXIMIZE YOUR REVENUE
           </h1>
