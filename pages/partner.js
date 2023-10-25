@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Partner() {
   return (
-    <MainLayout title="Welcome Homepage">
+    <MainLayout title="Mitra - Bookandlink">
       <div className="h-[230vh] bg-blue-100">
         <div className="flex flex-row h-[60vh] place-items-center mt-16">
           <img

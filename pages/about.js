@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Contact() {
   return (
-    <MainLayout title="Welcome Homepage">
+    <MainLayout title="Tentang Kami - Bookandlink">
       <div className="grid min-h-[240vh]">
         <div className="flex flex-row bg-no-repeat h-[60vh] place-items-center mt-16">
           <img
