@@ -44,7 +44,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="blog"
                   className="block py-2 px-2 text-gray-900 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Blog
@@ -61,19 +61,12 @@ export default function Header() {
               <li>
                 <Link
                   href="#"
-                  className="flex items-center border border-gray-300 text-grey focus:ring-4 focus:ring-blue-300 rounded-sm text-sm px-2 py-1 focus:outline-none dark:focus:ring-blue-800"
+                  className="flex items-center bg-gray-200 border border-gray-300 text-grey focus:ring-4 focus:ring-blue-300 rounded-sm text-sm px-2 py-1 focus:outline-none dark:focus:ring-blue-800"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="18"
-                    height="12"
-                    fill="currentColor"
-                    class="bi bi-square-fill"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" />
-                  </svg>
-                  Indonesia
+                  <div className="mr-2">
+                    <img src="https://web.bookandlink.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/id.png" />
+                  </div>
+                  <div className="text-[15px]">Indonesia</div>
                   <div className="ml-5">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

@@ -1,9 +1,9 @@
 import MainLayout from '@/components/layouts/mainLayout';
 import Link from 'next/link';
 
-export default function Affiliate() {
+export default function Career() {
   return (
-    <MainLayout title="Welcome Homepage">
+    <MainLayout title="Karir - Bookandlink">
       <div className="min-h-[85vh] bg-blue-100">
         <div className="mt-16">
           <img
