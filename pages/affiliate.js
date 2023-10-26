@@ -13,9 +13,9 @@ export default function Affiliate() {
             style={{ height: '300px' }}
           />
         </div>
-        <div className="h-[230vh]">
-          <div className="border border-black mx-6 mt-4 h-[190vh]">
-            <div className="text-gray-700 mx-12 mt-2">
+        <div className="h-[200vh]">
+          <div className="mx-6 mt-4 h-[190vh]">
+            <div className="text-gray-600 mx-14 mt-2">
               <h1 className="text-4xl">
                 Bergabunglah dengan Program Reseller kami!
               </h1>
@@ -35,7 +35,7 @@ export default function Affiliate() {
                 cocok untuk Anda maupun bisnis Anda.
               </p>
             </div>
-            <div className="border border-black h-[90vh] mx-52 mt-16 px-6">
+            <div className="h-[100vh] mx-52 mt-16 px-6">
               <div className="mx-20">
                 <div className="mt-6">
                   <label
@@ -115,25 +115,34 @@ export default function Affiliate() {
                   </button>
                 </div>
               </div>
-              <div className="flex">
-                <div className="">
-                  <h1 className="">Referral Program</h1>
-                  <p className="">
-                    Program Referral BookAndLink menawarkan Anda komisi untuk
-                    semua pembayaran yang dilakukan oleh klien yang dirujuk
-                    selama 12 bulan pertama.
-                  </p>
-                  <p className="">
-                    Program Referral sesuai untuk bisnis atau usaha properti
-                    yang ingin segera menerima peningkatan pendapatan.
-                  </p>
-                </div>
-                <div className="">
-                  <h1 className="">Partnership Program</h1>
-                  <p className="">Apakah Anda siap untuk mulai mengembangkan bisnis Anda? Bermitra dengan kami.</p>
-                  <p className="">Penawaran kami dapat bervariasi mengikuti jumlah properti yang Anda kelola.</p>
-                  <p className="">Kami juga dapat menawarkan solusi White Label dan semua interface akan berada di bawah nama Bisnis Anda.</p>
-                </div>
+            </div>
+            <div className="flex text-gray-600 mx-14 mt-22">
+              <div className="w-[600px] p-6">
+                <h1 className="text-4xl font-semibold">Referral Program</h1>
+                <p className="text-[17px] mt-4">
+                  Program Referral BookAndLink menawarkan Anda komisi untuk
+                  semua pembayaran yang dilakukan oleh klien yang dirujuk selama
+                  12 bulan pertama.
+                </p>
+                <p className="text-[17px] mt-4">
+                  Program Referral sesuai untuk bisnis atau usaha properti yang
+                  ingin segera menerima peningkatan pendapatan.
+                </p>
+              </div>
+              <div className="w-[600px] p-6">
+                <h1 className="text-4xl font-semibold">Partnership Program</h1>
+                <p className="text-[17px] mt-4">
+                  Apakah Anda siap untuk mulai mengembangkan bisnis Anda?
+                  Bermitra dengan kami.
+                </p>
+                <p className="text-[17px] mt-4">
+                  Penawaran kami dapat bervariasi mengikuti jumlah properti yang
+                  Anda kelola.
+                </p>
+                <p className="text-[17px] mt-4">
+                  Kami juga dapat menawarkan solusi White Label dan semua
+                  interface akan berada di bawah nama Bisnis Anda.
+                </p>
               </div>
             </div>
           </div>
