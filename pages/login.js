@@ -1,7 +1,7 @@
 import MainLayout from '@/components/layouts/mainLayout';
 import Link from 'next/link';
 
-export default function Service() {
+export default function Login() {
   return (
     <div
       className="grid min-h-[110vh] w-full place-items-center bg-cover bg-no-repeat"
@@ -66,4 +66,5 @@ export default function Service() {
         </div>
       </div>
     </div>
-c
+  );
+}
