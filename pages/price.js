@@ -24,9 +24,9 @@ export default function Home() {
           </p>
         </div>
         <div className="grid h-[110vh] mx-16 mt-4 bg-blue-100">
-          <div className="border border-black mx-6 mt-4 h-[620px] text-gray-700">
+          <div className="mx-6 mt-4 h-[620px] text-gray-700">
             <h1 className="text-xl font-bold">Request For a Quote</h1>
-            <div className="flex border border-black mt-4">
+            <div className="flex mt-4">
               <div className="w-full">
                 <label
                   for="first_name"
@@ -56,7 +56,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="flex border border-black mt-4">
+            <div className="flex mt-4">
               <div className="w-full">
                 <label
                   for="first_name"
@@ -110,16 +110,23 @@ export default function Home() {
                 class="block p-2.5 w-full h-52 text-sm text-gray-900 bg-blue-100 rounded-lg border border-gray-400 border-2"
               ></textarea>
             </div>
-          </div>
-          <div className="">
             <div className="">
-              <button
-                type="button"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-              >
-                Default
-              </button>
+              <div className="">
+                <button
+                  type="button"
+                  class="text-white bg-sky-600 border border-black border-2 hover:bg-red-400 font-semimedium rounded-3xl text-lg px-6 py-2 mr-2 mb-2 mt-12"
+                >
+                  REQUEST A QUOTE NOW!
+                </button>
+              </div>
             </div>
+          </div>
+        </div>
+        <div className="grid h-[70vh] bg-blue-100 mt-16">
+          <div className="border border-black w-full flex">
+            <div className="w-full border border-black"></div>
+          </div>
+          <div className="w-full border border-black"></div>
           </div>
         </div>
       </div>
