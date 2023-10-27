@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Affiliate() {
   return (
-    <MainLayout title="Welcome Homepage">
+    <MainLayout title="Join our team Bookandlink">
       <div className="min-h-[210vh]">
         <div className="flex flex-row bg-no-repeat h-[60vh] place-items-center mt-16">
           <img

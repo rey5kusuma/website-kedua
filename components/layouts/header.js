@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Script from 'next/script';
 
 export default function Header() {
   return (
@@ -52,12 +53,58 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="#"
+                {/* <Link
+                  href="test"
                   className="flex items-center text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-sm text-sm px-4 py-1 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                  target="_parent"
                 >
                   GRATIS UJI COBA
-                </Link>
+                </Link> */}
+                <button class="open-button" onclick="openForm()">
+                  Open Form
+                </button>
+                <div class="form-popup" id="myForm">
+                  <form action="/action_page.php" class="form-container">
+                    <h1>Login</h1>
+
+                    <label for="email">
+                      <b>Email</b>
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Enter Email"
+                      name="email"
+                      required
+                    />
+
+                    <label for="psw">
+                      <b>Password</b>
+                    </label>
+                    <input
+                      type="password"
+                      placeholder="Enter Password"
+                      name="psw"
+                      required
+                    />
+
+                    <button type="submit" class="btn">
+                      Login
+                    </button>
+                    <button
+                      type="button"
+                      class="btn cancel"
+                      onclick="closeForm()"
+                    >
+                      Close
+                    </button>
+                  </form>
+                </div>
+                <script>
+                  function openForm(){' '}
+                  {(document.getElementById('myForm').style.display = 'block')}
+                  function closeForm(){' '}
+                  {(document.getElementById('myForm').style.display = 'none')}
+                </script>
               </li>
               <li>
                 <Link
