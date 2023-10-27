@@ -4,12 +4,12 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <MainLayout title="Free Trial - Cloud Hospitality Software Indonesia">
-      <div className="h-[230vh]">
-        <div className="border h-[38vh] mt-32 mx-16 text-center">
-          <h1 className="text-3xl">
+      <div className="h-[230vh] bg-blue-400">
+        <div className="border grid h-[38vh] mt-32 mx-16 text-center">
+          <h1 className="text-3xl mt-8 text-gray-700">
             SIMPLIFY OPERATIONS TO MAXIMIZE YOUR REVENUE
           </h1>
-          <p className="text-2xl mt-2">
+          <p className="text-2xl mt-2 text-gray-700">
             Find the perfect plan for your property
           </p>
           <h1 className="mt-2 text-4xl font-semibold">REQUEST FOR A QUOTE</h1>

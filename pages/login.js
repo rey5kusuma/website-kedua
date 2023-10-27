@@ -45,20 +45,18 @@ export default function Service() {
             <Link href="#">
               <div className="flex items-center justify-center ml-24 px-5 py-1.5 border bg-cyan-500 font-semibold text-white text-sm">
                 <svg
+                  class="w-4 h-4 text-gray-800 dark:text-white"
+                  aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="18"
-                  height="18"
-                  fill="white"
-                  class="bi bi-box-arrow-in-right"
-                  viewBox="0 0 16 16"
+                  fill="none"
+                  viewBox="0 0 18 15"
                 >
                   <path
-                    fill-rule="evenodd"
-                    d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 7.5h11m0 0L8 3.786M12 7.5l-4 3.714M12 1h3c.53 0 1.04.196 1.414.544.375.348.586.82.586 1.313v9.286c0 .492-.21.965-.586 1.313A2.081 2.081 0 0 1 15 14h-3"
                   />
                 </svg>
                 <div className="ml-4">Sign In</div>

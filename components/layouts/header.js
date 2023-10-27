@@ -22,6 +22,7 @@ export default function Header() {
                 <Link
                   href="login"
                   class="block py-2 px-2 ml-32 text-gray-900 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  target="_blank"
                 >
                   Akses Klien
                 </Link>
@@ -53,7 +54,7 @@ export default function Header() {
               <li>
                 <Link
                   href="#"
-                  className="flex items-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-sm text-sm px-4 py-1 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                  className="flex items-center text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-sm text-sm px-4 py-1 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                 >
                   GRATIS UJI COBA
                 </Link>
@@ -61,7 +62,7 @@ export default function Header() {
               <li>
                 <Link
                   href="#"
-                  className="flex items-center bg-gray-200 border border-gray-300 text-grey focus:ring-4 focus:ring-blue-300 rounded-sm text-sm px-2 py-1 focus:outline-none dark:focus:ring-blue-800"
+                  className="flex items-center bg-gray-50 border border-gray-300 text-grey rounded-sm text-sm px-2 py-1 focus:outline-none"
                 >
                   <div className="mr-2">
                     <img src="https://web.bookandlink.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/id.png" />
@@ -107,10 +108,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="#"
-                  class="flex items-center block py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
+                <div class="flex items-center block py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="15"
@@ -121,8 +119,51 @@ export default function Header() {
                   >
                     <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z" />
                   </svg>
-                  <p className="ml-1">PRODUK</p>
-                </Link>
+                  <button
+                    id="dropdownNavbarLink"
+                    data-dropdown-toggle="dropdownNavbar"
+                    className="ml-1"
+                  >
+                    PRODUK
+                  </button>
+                  {/* <!-- Dropdown menu --> */}
+                  <div className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                    <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
+                      <li>
+                        <a
+                          href="#"
+                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                        >
+                          Dashboard
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                        >
+                          Settings
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                        >
+                          Earnings
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="py-1">
+                      <a
+                        href="#"
+                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
+                      >
+                        Sign out
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </li>
               <li>
                 <Link
