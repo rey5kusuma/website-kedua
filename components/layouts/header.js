@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import Script from 'next/script';
+import React from "react";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
 
 export default function Header() {
   return (
@@ -110,7 +111,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <div class="flex items-center block py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                <div class="flex items-center block py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="15"
@@ -127,44 +128,7 @@ export default function Header() {
                     className="ml-1"
                   >
                     PRODUK
-                  </button>
-                  {/* <!-- Dropdown menu --> */}
-                  <div className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                    <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                      <li>
-                        <a
-                          href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >
-                          Dashboard
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >
-                          Settings
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >
-                          Earnings
-                        </a>
-                      </li>
-                    </ul>
-                    <div class="py-1">
-                      <a
-                        href="#"
-                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
-                      >
-                        Sign out
-                      </a>
-                    </div>
-                  </div>
+                  </button> 
                 </div>
               </li>
               <li>
