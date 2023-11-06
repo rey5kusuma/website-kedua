@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import React from "react";
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
+// import React from "react";
+// import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
 
 export default function Header() {
   return (
@@ -128,7 +128,7 @@ export default function Header() {
                     className="ml-1"
                   >
                     PRODUK
-                  </button> 
+                  </button>
                 </div>
               </li>
               <li>
