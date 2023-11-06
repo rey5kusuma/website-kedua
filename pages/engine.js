@@ -6,13 +6,13 @@ export default function Engine() {
     <MainLayout title="Channel Manager - Bookandlink">
       <div className="h-[395vh]">
         <div
-          className="grid min-h-[90vh] w-full bg-cover bg-no-repeat mt-24"
+          className="grid min-h-[96vh] w-full bg-cover bg-no-repeat mt-24"
           style={{
             backgroundImage:
               'url(https://web.bookandlink.com/wp-content/uploads/2020/05/bg-bookingku03.jpg)',
           }}
         >
-          <div className="w-[500px] mt-12 ml-16 text-justify text-[16px] text-gray-700">
+          <div className="w-[450px] mt-12 ml-16 text-justify text-[17px] text-gray-800">
             <div>
               <img
                 src="https://web.bookandlink.com/wp-content/uploads/2020/04/logo-bookingku-1.png"
@@ -37,7 +37,7 @@ export default function Engine() {
         <div className="h-[75vh] bg-cyan-600">
           <div className="border border-cyan-600">
             <h1 className="mt-10 text-4xl text-white font-semibold text-center">
-              MENGAPA CHANNELKU?
+              MENGAPA BOOKINGKU?
             </h1>
             <div className="flex justify-center mt-12">
               <div className="w-[400px] text-white text-lg text-center justify-center items-center mx-4">
