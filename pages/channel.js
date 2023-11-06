@@ -36,17 +36,19 @@ export default function Channel() {
             </div>
           </div>
         </div>
-        <div className="h-[75vh] bg-cyan-600">
+        <div className="h-[82vh] bg-cyan-600">
           <div className="border border-cyan-600">
             <h1 className="mt-10 text-4xl text-white font-semibold text-center">
               MENGAPA CHANNELKU?
             </h1>
-            <div className="flex justify-center mt-12">
+            <div className="flex justify-center mt-16">
               <div className="w-[400px] text-white text-lg text-center justify-center items-center mx-4">
-                <img
-                  src="https://web.bookandlink.com/wp-content/uploads/2020/04/channelku-icon-01.png"
-                  style={{ height: '170px' }}
-                />
+                <div className="ml-24">
+                  <img
+                    src="https://web.bookandlink.com/wp-content/uploads/2020/04/channelku-icon-01.png"
+                    style={{ height: '140px' }}
+                  />
+                </div>
                 <p className="mt-8">
                   Dapat berintegrasi dengan sistem hotel yang ada, seperti PMS
                   dan Booking Engine.
@@ -54,20 +56,24 @@ export default function Channel() {
               </div>
 
               <div className="w-[400px] text-white text-lg text-center justify-center items-center mx-4">
-                <img
-                  src="https://web.bookandlink.com/wp-content/uploads/2020/04/channelku-icon-02.png"
-                  style={{ height: '170px' }}
-                />
+                <div className="ml-24">
+                  <img
+                    src="https://web.bookandlink.com/wp-content/uploads/2020/04/channelku-icon-02.png"
+                    style={{ height: '140px' }}
+                  />
+                </div>
                 <p className="mt-8">
                   ChannelKu dapat mengatur proses reservasi yang berubah-ubah
                   dari saluran yang terhubung (Online Travel Agents).
                 </p>
               </div>
               <div className="w-[400px] text-white text-lg text-center justify-center items-center mx-4">
-                <img
-                  src="https://web.bookandlink.com/wp-content/uploads/2020/04/channelku-icon-03.png"
-                  style={{ height: '170px' }}
-                />
+                <div className="ml-24">
+                  <img
+                    src="https://web.bookandlink.com/wp-content/uploads/2020/04/channelku-icon-03.png"
+                    style={{ height: '140px' }}
+                  />
+                </div>
                 <p className="mt-8">
                   Didukung oleh tim lokal untuk mengatur ketersediaan dan harga
                   yang kompetitif.
