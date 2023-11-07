@@ -19,11 +19,12 @@ export default function Engine() {
                 style={{ height: '120px' }}
               />
               <p className="mt-12">
-                Mesin Pemesanan kami berfungsi dengan menghubungkan ke situs web
-                hotel Anda dan memproses pemesanan yang terjamin melalui situs
-                web. Tampilan interface ini memungkinkan para tamu untuk memilih
-                tanggal dan menyelesaikan pemesanan berdasarkan ketersediaan dan
-                tampilan tarif.
+                <span className="text-orange-500">Mesin Pemesanan</span> kami
+                berfungsi dengan menghubungkan ke situs web hotel Anda dan
+                memproses pemesanan yang terjamin melalui situs web. Tampilan
+                interface ini memungkinkan para tamu untuk memilih tanggal dan
+                menyelesaikan pemesanan berdasarkan ketersediaan dan tampilan
+                tarif.
               </p>
               <p className="mt-6">
                 Dibanding mengelola pemesanan online secara manual, BookingKu
@@ -36,57 +37,50 @@ export default function Engine() {
         </div>
         <div className="h-[82vh] bg-cyan-600">
           <div className="border border-cyan-600">
-            <h1 className="mt-10 text-4xl text-white font-semibold text-center">
+            <h1 className="mt-16 text-4xl text-white font-semibold text-center">
               MENGAPA BOOKINGKU?
             </h1>
             <div className="flex justify-center mt-12">
-              <div className="w-[400px] text-white text-lg text-center justify-center items-center mx-4">
-                <div className="ml-16">
+              <div className="w-[260px] text-white text-lg text-center justify-center items-center mx-4">
+                <div className="ml-8">
                   <img
                     src="https://web.bookandlink.com/wp-content/uploads/2020/04/bookingku-icon-01.png"
                     style={{ height: '140px' }}
                   />
                 </div>
-                <p className="mt-8">
-                  Dapat berintegrasi dengan sistem hotel yang ada, seperti PMS
-                  dan Booking Engine.
-                </p>
+                <p className="mt-8">Komisi 0%</p>
               </div>
-
-              <div className="w-[400px] text-white text-lg text-center justify-center items-center mx-4">
-                <div className="ml-16">
+              <div className="w-[260px] text-white text-lg text-center justify-center items-center mx-4">
+                <div className="ml-8">
                   <img
                     src="https://web.bookandlink.com/wp-content/uploads/2020/04/bookingku-icon-02.png"
                     style={{ height: '140px' }}
                   />
                 </div>
-                <p className="mt-8">
-                  ChannelKu dapat mengatur proses reservasi yang berubah-ubah
-                  dari saluran yang terhubung (Online Travel Agents).
-                </p>
+                <p className="mt-8">Terintegrasi dengan ChannelKu</p>
               </div>
-              <div className="w-[400px] text-white text-lg text-center justify-center items-center mx-4">
-                <div className="ml-16">
+              <div className="w-[260px] text-white text-lg text-center justify-center items-center mx-4">
+                <div className="ml-14">
                   <img
                     src="https://web.bookandlink.com/wp-content/uploads/2020/04/bookingku-icon3.png"
                     style={{ height: '140px' }}
                   />
                 </div>
                 <p className="mt-8">
-                  Didukung oleh tim lokal untuk mengatur ketersediaan dan harga
-                  yang kompetitif.
+                  Fitur tambahan tersedia untuk memberikan pengalaman khusus
+                  bagi para tamu
                 </p>
               </div>
-              <div className="w-[400px] text-white text-lg text-center justify-center items-center mx-4">
-                <div className="ml-16">
+              <div className="w-[260px] text-white text-lg text-center justify-center items-center mx-4">
+                <div className="ml-6">
                   <img
                     src="https://web.bookandlink.com/wp-content/uploads/2020/04/bookingku-icon-03.png"
                     style={{ height: '140px' }}
                   />
                 </div>
                 <p className="mt-8">
-                  Didukung oleh tim lokal untuk mengatur ketersediaan dan harga
-                  yang kompetitif.
+                  Mengumpulkan informasi kartu kredit untuk memproses setoran
+                  dan pembayaran
                 </p>
               </div>
             </div>
