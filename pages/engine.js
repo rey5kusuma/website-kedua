@@ -280,7 +280,7 @@ export default function Engine() {
                     style={{ height: '100px' }}
                   />
                 </div>
-                <div className="place-items-center justify-center mt-20">
+                <div className="place-items-center justify-center mt-20 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                   <div className="border border-black border-2 w-36 rounded-3xl px-2.5 py-1.5 text-center text-lg">
                     dan lainnya...
                   </div>
