@@ -22,7 +22,7 @@ export default function Header() {
             <ul className="font-sm text-sm flex items-center flex-col p-4 md:p-0 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
               <li>
                 <Link
-                  href="login"
+                  href="/login"
                   class="block py-2 px-2 ml-32 text-gray-900 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   target="_blank"
                 >
@@ -31,7 +31,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="affiliate"
+                  href="/affiliate"
                   class="block py-2 px-2 text-gray-900 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Program Afiliasi
@@ -39,7 +39,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="career"
+                  href="/career"
                   className="block py-2 px-2 text-gray-900 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Karir
@@ -47,7 +47,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="blog"
+                  href="/blog"
                   className="block py-2 px-2 text-gray-900 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Blog
@@ -55,7 +55,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="test"
+                  href="/test"
                   className="flex items-center text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-sm text-sm px-4 py-1 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                   target="_parent"
                 >
@@ -94,7 +94,7 @@ export default function Header() {
             <ul className="font-sm text-base flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
               <li>
                 <Link
-                  href="home"
+                  href="/home"
                   class="flex items-center block py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   <svg
@@ -133,7 +133,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="service"
+                  href="/service"
                   class="flex items-center block py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   <svg
@@ -151,7 +151,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="partner"
+                  href="/partner"
                   class="flex items-center block py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   <svg
@@ -169,7 +169,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="price"
+                  href="/price"
                   class="flex items-center block py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   <svg
@@ -188,7 +188,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="about"
+                  href="/about"
                   class="flex items-center block py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   <svg
@@ -210,7 +210,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="contact"
+                  href="/contact"
                   class="flex items-center block mr-8 py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   <svg
