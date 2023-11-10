@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Front() {
   return (
     <MainLayout title="Payku - Bookandlink Credit Card Payment Processing">
-      <div className="h-[700vh]">
+      <div className="h-[710vh]">
         <div
           className="grid min-h-[90vh] w-full bg-cover bg-no-repeat mt-24"
           style={{
@@ -275,6 +275,146 @@ export default function Front() {
                     and claims for no-shows.
                   </p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="h-[80vh]">
+          <div className="flex flex-row">
+            <div className="w-2/4 mt-14 ml-14">
+              <h1 className="text-xl font-semibold text-blue-900">
+                We reduce your risks
+              </h1>
+              <h1 className=" text-5xl font-semibold mt-4">
+                Security and Compliance
+              </h1>
+            </div>
+            <div className="w-2/4 mt-14 mr-14">
+              <h1 className="text-xl font-semibold text-blue-900">
+                We speed things up
+              </h1>
+              <h1 className=" text-5xl font-semibold mt-4">
+                Straightforward Approval
+              </h1>
+            </div>
+          </div>
+          <div className="flex flex-row mt-8 mx-14">
+            <div className="mt-8 w-72 mr-10">
+              <div className="flex flex-row">
+                <img
+                  src="https://web.bookandlink.com/wp-content/uploads/2022/02/icon12.png"
+                  style={{ height: '25px' }}
+                />
+              </div>
+              <div className="font-semibold mt-2">Tokenization</div>
+              <p className="mt-4 text-gray-600">
+                We store the credit car din a Vault so its not possible for
+                anyone to read the full credit card details of the Guest. The
+                system is fully PCI DSS v3.2.2 Level 1 compliant.
+              </p>
+            </div>
+            <div className="mt-8 w-72 mr-10">
+              <div className="flex flex-row">
+                <img
+                  src="https://web.bookandlink.com/wp-content/uploads/2022/02/icon13.png"
+                  style={{ height: '25px' }}
+                />
+              </div>
+              <div className="font-semibold mt-2">Secure</div>
+              <p className="mt-4 text-gray-600">
+                We have extra steps in card verification designed to detect
+                fraud (called 3DS)- which is particularly important for
+                international cards..
+              </p>
+            </div>
+            <div className="mt-8 w-72 mr-10">
+              <div className="flex flex-row">
+                <img
+                  src="https://web.bookandlink.com/wp-content/uploads/2022/02/icon14.png"
+                  style={{ height: '25px' }}
+                />
+              </div>
+              <div className="font-semibold mt-2">Payouts</div>
+              <p className="mt-4 text-gray-600">
+                Withdraw to Hotel’s Account is usually made every 2 working days
+                and once Reservation already checked out to increase security
+                and to protect all parties.
+              </p>
+            </div>
+            <div className="mt-8 w-72 mr-10">
+              <div className="flex flex-row">
+                <img
+                  src="https://web.bookandlink.com/wp-content/uploads/2022/02/icon15.png"
+                  style={{ height: '25px' }}
+                />
+              </div>
+              <div className="font-semibold mt-2">Sign up process</div>
+              <p className="mt-4 text-gray-600">
+                There are no setup fees and you can start accepting Credit Card
+                in 1 or 2 working days.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="h-[115vh] flex flex-row bg-gray-100">
+          <div className="w-[580px] mt-14 ml-16">
+            <h1 className=" text-5xl font-semibold">
+              PAYKU solve a real problem for anyone having difficulties
+              processing Credit Cards
+            </h1>
+            <div className="flex flex-row">
+              <div className="mt-8 w-72 mr-10">
+                <div className="flex flex-row">
+                  <img
+                    src="https://web.bookandlink.com/wp-content/uploads/2022/02/icon16.png"
+                    style={{ height: '25px' }}
+                  />
+                </div>
+                <p className="mt-4 text-gray-600">
+                  Risks are on our side and we adapt the flow to the Hospitality
+                  Industry. Make online payment finally available and affordable
+                  for any Property Owner!
+                </p>
+              </div>
+              <div className="mt-8 w-72 mr-10">
+                <div className="flex flex-row">
+                  <img
+                    src="https://web.bookandlink.com/wp-content/uploads/2022/02/icon17.png"
+                    style={{ height: '25px' }}
+                  />
+                </div>
+                <p className="mt-4 text-gray-600">
+                  We work in many countries where no local service was
+                  previously available.
+                </p>
+              </div>
+            </div>
+            <div className="mt-6">
+              <div className="px-3 py-2.5 bg-orange-500 w-44 rounded-3xl text-center text-white cursor-pointer hover:bg-orange-600">
+                Contact Sales
+              </div>
+            </div>
+          </div>
+          <div className="ml-20 mt-14">
+            <img
+              src="https://web.bookandlink.com/wp-content/uploads/2022/02/PayKuPage-CreditCard.jpg"
+              style={{ height: '580px' }}
+            />
+          </div>
+        </div>
+        <div className="h-[60vh] bg-violet-950 flex flex-col">
+          <div className="place-items-center justify-center text-white text-center">
+            <h1 className="text-5xl font-semibold mt-20">
+              Accept Online Payments Now!
+            </h1>
+            <div className="place-items-center justify-center mt-6">
+              Make payments easy, fast, secure and a natural part of the guest
+              experience. With Payku, you have the flexibility to take payments
+              at any step of the booking process.
+            </div>
+            <div className="mt-6 flex flex-row justify-center">
+              <div className="px-3 py-2.5 bg-orange-500 w-44 rounded-3xl text-center text-white cursor-pointer hover:bg-orange-600">
+                Contact Sales
               </div>
             </div>
           </div>
