@@ -1,7 +1,7 @@
 import MainLayout from '@/components/layouts/mainLayout';
 import Link from 'next/link';
 
-export default function Front() {
+export default function Payment() {
   return (
     <MainLayout title="Payku - Bookandlink Credit Card Payment Processing">
       <div className="h-[710vh]">
