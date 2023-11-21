@@ -6,6 +6,7 @@ export default function Affiliate() {
     <MainLayout title="Join our team Bookandlink">
       <div className="min-h-[210vh]">
         <div className="flex flex-row bg-no-repeat h-[60vh] place-items-center mt-16">
+          <div></div>
           <img
             src="https://web.bookandlink.com/wp-content/uploads/2020/05/main-hiring-1500x323.jpg"
             className=""
