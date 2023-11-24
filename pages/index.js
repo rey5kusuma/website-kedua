@@ -8,7 +8,7 @@ import Section1 from '../components/section1';
 export default function Home() {
   return (
     <MainLayout title="Channel Manager No. 1| Perangkat Lunak">
-      <div>
+      <div className="mt-24">
         <Section1></Section1>
       </div>
 
