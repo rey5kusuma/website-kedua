@@ -1,16 +1,24 @@
 import MainLayout from '@/components/layouts/mainLayout';
 import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+
+import Section1 from '../components/section1';
 
 export default function Home() {
   return (
     <MainLayout title="Channel Manager No. 1| Perangkat Lunak">
-      <div
+      <div>
+        <Section1></Section1>
+      </div>
+
+      {/* <div
         className="grid min-h-[100vh] w-full place-items-center bg-light bg-cover bg-no-repeat mt-24"
         style={{
           backgroundImage:
             'url(https://web.bookandlink.com/wp-content/uploads/2020/04/banner-image-bookandlink3.jpg)',
         }}
-      >
+       >
         <div className="bg-slate-900 bg-opacity-50 min-h-[652px] w-full py-8 px-14 text-center lg:py-16">
           <h1 className="mb-14 mx-12 mt-32 text-xl font-bold tracking-tight leading-none text-gray-50 md:text-4xl lg:text-5xl dark:text-blue">
             SATU-SATUNYA CHANNEL MANAGER YANG BERBASIS DI INDONESIA
@@ -24,7 +32,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="min-h-[680px] bg-gray-200 p-4">
         <h1 className="text-4xl font-semibold text-center mt-8 mb-4 text-gray-700">
           BookandLink
