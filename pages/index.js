@@ -8,12 +8,12 @@ import Section1 from '../components/section1';
 export default function Home() {
   return (
     <MainLayout title="Channel Manager No. 1| Perangkat Lunak">
-      <div className="mt-24">
+      <div className="h-[100vh] mt-2">
         <Section1></Section1>
       </div>
 
       {/* <div
-        className="grid min-h-[100vh] w-full place-items-center bg-light bg-cover bg-no-repeat mt-24"
+        className="w-full place-items-center bg-cover bg-no-repeat"
         style={{
           backgroundImage:
             'url(https://web.bookandlink.com/wp-content/uploads/2020/04/banner-image-bookandlink3.jpg)',
@@ -33,7 +33,7 @@ export default function Home() {
           </div>
         </div>
       </div> */}
-      <div className="min-h-[680px] bg-gray-200 p-4">
+      <div className="min-h-[680px] bg-gray-200 p-4 z-20">
         <h1 className="text-4xl font-semibold text-center mt-8 mb-4 text-gray-700">
           BookandLink
         </h1>

@@ -111,7 +111,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <div class="flex items-center block py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 ">
+                {/* <div class="flex items-center block py-2 pl-3 pr-4 text-blue-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-grey-900 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="15"
@@ -129,6 +129,15 @@ export default function Header() {
                   >
                     PRODUK
                   </button>
+                </div> */}
+                <div className="md:hidden flex items-center">
+                  <button className="inline-flex items-center justify-center p-2 "></button>
+                  <div className="ml-4 flex items-center space-x-4">
+                    <a
+                      href="/"
+                      className="text-white hover:bg-white hover:text-black p-2"
+                    ></a>
+                  </div>
                 </div>
               </li>
               <li>
