@@ -130,15 +130,6 @@ export default function Header() {
                     PRODUK
                   </button>
                 </div> */}
-                <div className="md:hidden flex items-center">
-                  <button className="inline-flex items-center justify-center p-2 "></button>
-                  <div className="ml-4 flex items-center space-x-4">
-                    <a
-                      href="/"
-                      className="text-white hover:bg-white hover:text-black p-2"
-                    ></a>
-                  </div>
-                </div>
               </li>
               <li>
                 <Link
